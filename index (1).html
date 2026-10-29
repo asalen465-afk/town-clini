@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>عيادات تاون كلينك | Town Clinic</title>
+<meta name="description" content="Town Clinic – Your Health Is Our Target">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Poppins:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a href="#home" class="brand"><img src="assets/logo.jpg" alt="Town Clinic"></a>
+  <nav>
+    <a href="#about" data-i18n="nav_about"></a>
+    <a href="#specialists" data-i18n="nav_spec"></a>
+    <a href="#branches" data-i18n="nav_branches"></a>
+  </nav>
+  <button id="lang" type="button" aria-label="Language">EN</button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-text">
+    <h1 data-i18n="h1"></h1>
+    <p data-i18n="hero_p"></p>
+    <a class="btn" href="#branches" data-i18n="cta"></a>
+  </div>
+  <img class="hero-logo" src="assets/logo.jpg" alt="Town Clinic – Your Health Is Our Target">
+</section>
+
+<section id="about" class="wrap">
+  <h2 data-i18n="about_h"></h2>
+  <p class="lead" data-i18n="about_p"></p>
+</section>
+
+<section id="specialists" class="wrap alt">
+  <h2 data-i18n="spec_h"></h2>
+  <p class="lead" data-i18n="spec_p"></p>
+  <div class="grid" id="specGrid"></div>
+</section>
+
+<section id="branches" class="wrap">
+  <h2 data-i18n="br_h"></h2>
+  <div class="grid two">
+    <article class="card">
+      <h3 data-i18n="b1_name"></h3>
+      <p data-i18n="b1_addr"></p>
+      <a class="tel" href="tel:01002375800" dir="ltr">01002375800</a>
+    </article>
+    <article class="card">
+      <h3 data-i18n="b2_name"></h3>
+      <p data-i18n="b2_addr"></p>
+      <a class="tel" href="tel:01036777718" dir="ltr">01036777718</a>
+    </article>
+  </div>
+</section>
+</main>
+
+<footer class="bar">
+  <div><span data-i18n="b1_name"></span> <a href="tel:01002375800" dir="ltr">📞 01002375800</a><small data-i18n="b1_addr"></small></div>
+  <div><span data-i18n="b2_name"></span> <a href="tel:01036777718" dir="ltr">📞 01036777718</a><small data-i18n="b2_addr"></small></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
